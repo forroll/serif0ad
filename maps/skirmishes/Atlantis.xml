@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<Scenario version="6">
+<Scenario version="5">
 	<Environment>
-		<SkySet>default</SkySet>
-		<SunColor r="0.74902" g="0.74902" b="0.74902"/>
-		<SunElevation angle="0.785398"/>
-		<SunRotation angle="-0.785396"/>
-		<TerrainAmbientColor r="0.501961" g="0.501961" b="0.501961"/>
-		<UnitsAmbientColor r="0.501961" g="0.501961" b="0.501961"/>
+		<SkySet>stratus</SkySet>
+		<SunColour r="1.01953" g="1.01953" b="1.01953"/>
+		<SunElevation angle="0.43565"/>
+		<SunRotation angle="-3.14159"/>
+		<TerrainAmbientColour r="0.313726" g="0.376471" b="0.521569"/>
+		<UnitsAmbientColour r="0.501961" g="0.501961" b="0.501961"/>
 		<Fog>
 			<FogFactor>0</FogFactor>
 			<FogThickness>0.5</FogThickness>
-			<FogColor r="0.8" g="0.8" b="0.894118"/>
+			<FogColour r="0.8" g="0.8" b="0.898039"/>
 		</Fog>
 		<Water>
 			<WaterBody>
-				<Type>ocean</Type>
-				<Color r="0.294118" g="0.34902" b="0.694118"/>
+				<Type>lake</Type>
+				<Colour r="0.298039" g="0.34902" b="0.698039"/>
 				<Tint r="0.27451" g="0.294118" b="0.584314"/>
-				<Height>5</Height>
-				<Waviness>4</Waviness>
-				<Murkiness>0.45</Murkiness>
+				<Height>0.629501</Height>
+				<Waviness>2.88086</Waviness>
+				<Murkiness>0.366211</Murkiness>
 				<WindAngle>0</WindAngle>
 			</WaterBody>
 		</Water>
 		<Postproc>
-			<Brightness>0</Brightness>
+			<Brightness>-0.197266</Brightness>
 			<Contrast>1</Contrast>
 			<Saturation>0.99</Saturation>
 			<Bloom>0.1999</Bloom>
@@ -33,8 +33,8 @@
 		</Postproc>
 	</Environment>
 	<Camera>
-		<Position x="1194.39" y="118.803" z="1254.57"/>
-		<Rotation angle="0.00622448"/>
+		<Position x="1045.64" y="152.444" z="242.623"/>
+		<Rotation angle="0.608312"/>
 		<Declination angle="0.610865"/>
 	</Camera>
 	<ScriptSettings><![CDATA[
@@ -48,7 +48,6 @@
   "LockTeams": false,
   "Name": "ATLANTIS",
   "PlayerData": [
-    null,
     {
       "Name": "Player 1"
     },
@@ -158,195 +157,6 @@
 			<Orientation y="-1.21431"/>
 			<Actor seed="56794"/>
 		</Entity>
-		<Entity uid="119">
-			<Template>gaia/fauna_fish_tilapia</Template>
-			<Player>0</Player>
-			<Position x="691.92695" z="952.35071"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="35712"/>
-		</Entity>
-		<Entity uid="122">
-			<Template>gaia/fauna_fish_tilapia</Template>
-			<Player>0</Player>
-			<Position x="701.87128" z="938.11597"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="1092"/>
-		</Entity>
-		<Entity uid="123">
-			<Template>gaia/fauna_fish_tilapia</Template>
-			<Player>0</Player>
-			<Position x="713.26203" z="956.84168"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="80"/>
-		</Entity>
-		<Entity uid="136">
-			<Template>gaia/fauna_fish_tuna</Template>
-			<Player>0</Player>
-			<Position x="946.1637" z="1412.22095"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="27849"/>
-		</Entity>
-		<Entity uid="137">
-			<Template>gaia/fauna_fish_tuna</Template>
-			<Player>0</Player>
-			<Position x="922.79737" z="1077.35218"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="63704"/>
-		</Entity>
-		<Entity uid="138">
-			<Template>gaia/fauna_fish_tuna</Template>
-			<Player>0</Player>
-			<Position x="950.65723" z="1426.94031"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="37803"/>
-		</Entity>
-		<Entity uid="144">
-			<Template>gaia/fauna_fish_tuna</Template>
-			<Player>0</Player>
-			<Position x="346.95719" z="892.07447"/>
-			<Orientation y="1.0323"/>
-			<Actor seed="23044"/>
-		</Entity>
-		<Entity uid="145">
-			<Template>gaia/fauna_fish_tuna</Template>
-			<Player>0</Player>
-			<Position x="340.49921" z="906.4997"/>
-			<Orientation y="2.84061"/>
-			<Actor seed="20885"/>
-		</Entity>
-		<Entity uid="146">
-			<Template>gaia/fauna_fish_tuna</Template>
-			<Player>0</Player>
-			<Position x="1471.05018" z="627.11707"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="12912"/>
-		</Entity>
-		<Entity uid="147">
-			<Template>gaia/fauna_fish_tuna</Template>
-			<Player>0</Player>
-			<Position x="1462.5376" z="611.75715"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="7375"/>
-		</Entity>
-		<Entity uid="148">
-			<Template>gaia/fauna_fish_tuna</Template>
-			<Player>0</Player>
-			<Position x="1460.2693" z="598.87146"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="45726"/>
-		</Entity>
-		<Entity uid="149">
-			<Template>gaia/fauna_fish_tuna</Template>
-			<Player>0</Player>
-			<Position x="1473.19581" z="606.82319"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="22618"/>
-		</Entity>
-		<Entity uid="150">
-			<Template>gaia/fauna_fish_tuna</Template>
-			<Player>0</Player>
-			<Position x="1458.45057" z="631.4145"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="40074"/>
-		</Entity>
-		<Entity uid="151">
-			<Template>gaia/fauna_fish_tuna</Template>
-			<Player>0</Player>
-			<Position x="1450.0829" z="612.97944"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="1769"/>
-		</Entity>
-		<Entity uid="152">
-			<Template>gaia/fauna_fish_tuna</Template>
-			<Player>0</Player>
-			<Position x="1398.68494" z="463.35804"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="19238"/>
-		</Entity>
-		<Entity uid="153">
-			<Template>gaia/fauna_fish_tuna</Template>
-			<Player>0</Player>
-			<Position x="1387.72498" z="471.064"/>
-			<Orientation y="2.00861"/>
-			<Actor seed="7197"/>
-		</Entity>
-		<Entity uid="154">
-			<Template>gaia/fauna_fish_tuna</Template>
-			<Player>0</Player>
-			<Position x="1394.01148" z="481.83582"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="33050"/>
-		</Entity>
-		<Entity uid="155">
-			<Template>gaia/fauna_fish_tuna</Template>
-			<Player>0</Player>
-			<Position x="1469.51319" z="966.29883"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="16532"/>
-		</Entity>
-		<Entity uid="156">
-			<Template>gaia/fauna_fish_tuna</Template>
-			<Player>0</Player>
-			<Position x="1476.636" z="955.04841"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="33945"/>
-		</Entity>
-		<Entity uid="157">
-			<Template>gaia/fauna_fish_tuna</Template>
-			<Player>0</Player>
-			<Position x="1455.65247" z="950.25092"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="58973"/>
-		</Entity>
-		<Entity uid="158">
-			<Template>gaia/fauna_fish_tuna</Template>
-			<Player>0</Player>
-			<Position x="1520.99964" z="930.81397"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="15429"/>
-		</Entity>
-		<Entity uid="159">
-			<Template>gaia/fauna_fish_tuna</Template>
-			<Player>0</Player>
-			<Position x="1503.86573" z="925.03956"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="39012"/>
-		</Entity>
-		<Entity uid="160">
-			<Template>gaia/fauna_fish_tuna</Template>
-			<Player>0</Player>
-			<Position x="1508.64185" z="943.17145"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="2093"/>
-		</Entity>
-		<Entity uid="161">
-			<Template>gaia/fauna_fish_tuna</Template>
-			<Player>0</Player>
-			<Position x="1387.67945" z="498.03092"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="11785"/>
-		</Entity>
-		<Entity uid="162">
-			<Template>gaia/fauna_fish_tuna</Template>
-			<Player>0</Player>
-			<Position x="1407.5813" z="478.38495"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="53718"/>
-		</Entity>
-		<Entity uid="163">
-			<Template>gaia/fauna_fish_tuna</Template>
-			<Player>0</Player>
-			<Position x="1403.66419" z="498.12739"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="65512"/>
-		</Entity>
-		<Entity uid="164">
-			<Template>gaia/fauna_fish_tilapia</Template>
-			<Player>0</Player>
-			<Position x="817.79902" z="184.35163"/>
-			<Orientation y="1.60158"/>
-			<Actor seed="50159"/>
-		</Entity>
 		<Entity uid="165">
 			<Template>gaia/fauna_fish_tilapia</Template>
 			<Player>0</Player>
@@ -361,89 +171,12 @@
 			<Orientation y="1.60158"/>
 			<Actor seed="53627"/>
 		</Entity>
-		<Entity uid="167">
-			<Template>gaia/fauna_fish_tilapia</Template>
-			<Player>0</Player>
-			<Position x="860.64344" z="165.07798"/>
-			<Orientation y="1.60158"/>
-			<Actor seed="40779"/>
-		</Entity>
 		<Entity uid="168">
 			<Template>gaia/fauna_fish_tilapia</Template>
 			<Player>0</Player>
 			<Position x="863.64423" z="183.5763"/>
 			<Orientation y="1.60158"/>
 			<Actor seed="53500"/>
-		</Entity>
-		<Entity uid="169">
-			<Template>gaia/fauna_fish_tilapia</Template>
-			<Player>0</Player>
-			<Position x="855.01777" z="194.27683"/>
-			<Orientation y="2.93906"/>
-			<Actor seed="15401"/>
-		</Entity>
-		<Entity uid="171">
-			<Template>gaia/fauna_fish_tilapia</Template>
-			<Player>0</Player>
-			<Position x="832.02314" z="177.54197"/>
-			<Orientation y="1.60158"/>
-			<Actor seed="1732"/>
-		</Entity>
-		<Entity uid="172">
-			<Template>gaia/fauna_fish_tilapia</Template>
-			<Player>0</Player>
-			<Position x="327.84513" z="890.08552"/>
-			<Orientation y="2.84061"/>
-			<Actor seed="3263"/>
-		</Entity>
-		<Entity uid="174">
-			<Template>gaia/fauna_fish_tilapia</Template>
-			<Player>0</Player>
-			<Position x="336.24265" z="877.34046"/>
-			<Orientation y="2.84061"/>
-			<Actor seed="16619"/>
-		</Entity>
-		<Entity uid="177">
-			<Template>gaia/fauna_fish_tuna</Template>
-			<Player>0</Player>
-			<Position x="936.95734" z="1446.2328"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="22481"/>
-		</Entity>
-		<Entity uid="178">
-			<Template>gaia/fauna_fish_tuna</Template>
-			<Player>0</Player>
-			<Position x="934.17371" z="1428.9369"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="43040"/>
-		</Entity>
-		<Entity uid="179">
-			<Template>gaia/fauna_fish_tuna</Template>
-			<Player>0</Player>
-			<Position x="957.52137" z="1448.47645"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="31948"/>
-		</Entity>
-		<Entity uid="181">
-			<Template>gaia/fauna_fish_tilapia</Template>
-			<Player>0</Player>
-			<Position x="1206.2151" z="1078.97571"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="56389"/>
-		</Entity>
-		<Entity uid="184">
-			<Template>gaia/fauna_fish_tilapia</Template>
-			<Player>0</Player>
-			<Position x="1200.81727" z="1060.31775"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="60687"/>
-		</Entity>
-		<Entity uid="185">
-			<Template>gaia/fauna_fish_tilapia</Template>
-			<Player>0</Player>
-			<Position x="1217.60621" z="1063.34632"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="41871"/>
 		</Entity>
 		<Entity uid="267">
 			<Template>gaia/flora_tree_date_palm</Template>
@@ -6014,7 +5747,7 @@
 			<Template>gaia/flora_tree_dead</Template>
 			<Player>0</Player>
 			<Position x="147.55344" z="1085.61792"/>
-			<Orientation y="2.35621"/>
+			<Orientation y="5.21584"/>
 			<Actor seed="21844"/>
 		</Entity>
 		<Entity uid="1542">
@@ -6042,14 +5775,14 @@
 			<Template>gaia/flora_tree_dead</Template>
 			<Player>0</Player>
 			<Position x="145.19053" z="1079.20289"/>
-			<Orientation y="2.35621"/>
+			<Orientation y="0.8182"/>
 			<Actor seed="34300"/>
 		</Entity>
 		<Entity uid="1546">
 			<Template>gaia/flora_tree_dead</Template>
 			<Player>0</Player>
 			<Position x="133.62092" z="1080.78345"/>
-			<Orientation y="2.35621"/>
+			<Orientation y="2.45008"/>
 			<Actor seed="28896"/>
 		</Entity>
 		<Entity uid="1547">
@@ -7724,33 +7457,12 @@
 			<Orientation y="2.35621"/>
 			<Actor seed="20689"/>
 		</Entity>
-		<Entity uid="1994">
-			<Template>gaia/flora_bush_berry</Template>
-			<Player>0</Player>
-			<Position x="263.5268" z="1014.80091"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="21522"/>
-		</Entity>
 		<Entity uid="1995">
 			<Template>gaia/flora_bush_berry</Template>
 			<Player>0</Player>
-			<Position x="258.38633" z="1010.1855"/>
+			<Position x="256.26648" z="1011.3888"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="15177"/>
-		</Entity>
-		<Entity uid="1996">
-			<Template>gaia/flora_bush_berry</Template>
-			<Player>0</Player>
-			<Position x="269.57877" z="1005.90918"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="28213"/>
-		</Entity>
-		<Entity uid="1997">
-			<Template>gaia/flora_bush_berry</Template>
-			<Player>0</Player>
-			<Position x="269.64902" z="1012.70313"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="47690"/>
 		</Entity>
 		<Entity uid="1998">
 			<Template>gaia/flora_bush_berry</Template>
@@ -7762,7 +7474,7 @@
 		<Entity uid="1999">
 			<Template>gaia/flora_bush_berry</Template>
 			<Player>0</Player>
-			<Position x="275.57718" z="1011.41187"/>
+			<Position x="245.1894" z="1015.51703"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="58001"/>
 		</Entity>
@@ -8147,51 +7859,37 @@
 		<Entity uid="2129">
 			<Template>other/special_treasure_shipwreck_sail_boat_cut</Template>
 			<Player>0</Player>
-			<Position x="428.78522" z="1006.23566"/>
+			<Position x="406.97992" z="950.50232"/>
 			<Orientation y="3.55132"/>
 			<Actor seed="56313"/>
 		</Entity>
 		<Entity uid="2130">
 			<Template>other/special_treasure_shipwreck_sail_boat_cut</Template>
 			<Player>0</Player>
-			<Position x="449.15082" z="1003.3888"/>
+			<Position x="344.83265" z="943.76471"/>
 			<Orientation y="-1.37291"/>
 			<Actor seed="50165"/>
 		</Entity>
 		<Entity uid="2141">
 			<Template>other/special_treasure_shipwreck_debris</Template>
 			<Player>0</Player>
-			<Position x="473.81861" z="995.00342"/>
+			<Position x="63.61019" z="984.4267"/>
 			<Orientation y="6.36019"/>
 			<Actor seed="44796"/>
-		</Entity>
-		<Entity uid="2143">
-			<Template>other/special_treasure_shipwreck_debris</Template>
-			<Player>0</Player>
-			<Position x="497.85285" z="1033.32935"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="21479"/>
 		</Entity>
 		<Entity uid="2144">
 			<Template>other/special_treasure_shipwreck_debris</Template>
 			<Player>0</Player>
-			<Position x="430.64759" z="972.63801"/>
+			<Position x="422.96644" z="961.36146"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="21483"/>
 		</Entity>
 		<Entity uid="2147">
 			<Template>other/special_treasure_shipwreck_debris</Template>
 			<Player>0</Player>
-			<Position x="448.41889" z="981.46131"/>
+			<Position x="72.32494" z="996.04426"/>
 			<Orientation y="1.4877"/>
 			<Actor seed="1565"/>
-		</Entity>
-		<Entity uid="2149">
-			<Template>other/special_treasure_shipwreck_debris</Template>
-			<Player>0</Player>
-			<Position x="474.14124" z="1015.53052"/>
-			<Orientation y="-3.31995"/>
-			<Actor seed="30901"/>
 		</Entity>
 		<Entity uid="2161">
 			<Template>other/special_treasure_shipwreck</Template>
@@ -8280,7 +7978,7 @@
 		<Entity uid="2194">
 			<Template>other/special_treasure_shipwreck_debris</Template>
 			<Player>0</Player>
-			<Position x="1517.9745" z="761.87897"/>
+			<Position x="1523.38697" z="766.2732"/>
 			<Orientation y="4.9147"/>
 			<Actor seed="60500"/>
 		</Entity>
@@ -9311,62 +9009,6 @@
 			<Position x="1413.90784" z="202.79435"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="28521"/>
-		</Entity>
-		<Entity uid="2489">
-			<Template>gaia/fauna_fish_tuna</Template>
-			<Player>0</Player>
-			<Position x="689.56104" z="379.38828"/>
-			<Orientation y="1.60914"/>
-			<Actor seed="53680"/>
-		</Entity>
-		<Entity uid="2490">
-			<Template>gaia/fauna_fish_tuna</Template>
-			<Player>0</Player>
-			<Position x="676.69166" z="390.8873"/>
-			<Orientation y="1.60914"/>
-			<Actor seed="47828"/>
-		</Entity>
-		<Entity uid="2491">
-			<Template>gaia/fauna_fish_tuna</Template>
-			<Player>0</Player>
-			<Position x="688.85492" z="393.98624"/>
-			<Orientation y="1.60914"/>
-			<Actor seed="60819"/>
-		</Entity>
-		<Entity uid="2492">
-			<Template>gaia/fauna_fish_tuna</Template>
-			<Player>0</Player>
-			<Position x="677.33826" z="402.85004"/>
-			<Orientation y="1.60914"/>
-			<Actor seed="52038"/>
-		</Entity>
-		<Entity uid="2493">
-			<Template>gaia/fauna_fish_tuna</Template>
-			<Player>0</Player>
-			<Position x="665.48139" z="393.03663"/>
-			<Orientation y="1.60914"/>
-			<Actor seed="26847"/>
-		</Entity>
-		<Entity uid="2494">
-			<Template>gaia/fauna_fish_tuna</Template>
-			<Player>0</Player>
-			<Position x="675.68427" z="376.78602"/>
-			<Orientation y="1.60914"/>
-			<Actor seed="16250"/>
-		</Entity>
-		<Entity uid="2495">
-			<Template>gaia/fauna_fish_tilapia</Template>
-			<Player>0</Player>
-			<Position x="845.9651" z="180.15516"/>
-			<Orientation y="1.60158"/>
-			<Actor seed="198"/>
-		</Entity>
-		<Entity uid="2496">
-			<Template>gaia/fauna_fish_tilapia</Template>
-			<Player>0</Player>
-			<Position x="835.92084" z="189.01706"/>
-			<Orientation y="1.60158"/>
-			<Actor seed="36856"/>
 		</Entity>
 		<Entity uid="2498">
 			<Template>other/special_treasure_shipwreck_sail_boat</Template>
@@ -10485,7 +10127,7 @@
 		<Entity uid="2817">
 			<Template>other/special_treasure_shipwreck_sail_boat</Template>
 			<Player>0</Player>
-			<Position x="1041.5199" z="1345.31971"/>
+			<Position x="1065.84888" z="1228.50452"/>
 			<Orientation y="5.32013"/>
 			<Actor seed="31191"/>
 		</Entity>
@@ -12683,8 +12325,8 @@
 		<Entity uid="3595">
 			<Template>skirmish/structures/default_dock</Template>
 			<Player>3</Player>
-			<Position x="671.98145" z="462.53205"/>
-			<Orientation y="-8.75156"/>
+			<Position x="663.99286" z="464.60984"/>
+			<Orientation y="-8.54235"/>
 			<Actor seed="28055"/>
 		</Entity>
 		<Entity uid="3596">
@@ -13397,76 +13039,6 @@
 			<Orientation y="2.35622"/>
 			<Actor seed="36437"/>
 		</Entity>
-		<Entity uid="3804">
-			<Template>gaia/fauna_fish_tuna</Template>
-			<Player>0</Player>
-			<Position x="968.56983" z="1426.91932"/>
-			<Orientation y="2.35622"/>
-			<Actor seed="16250"/>
-		</Entity>
-		<Entity uid="3805">
-			<Template>gaia/fauna_fish_tuna</Template>
-			<Player>0</Player>
-			<Position x="966.49714" z="1406.10389"/>
-			<Orientation y="2.35622"/>
-			<Actor seed="53680"/>
-		</Entity>
-		<Entity uid="3806">
-			<Template>gaia/fauna_fish_tuna</Template>
-			<Player>0</Player>
-			<Position x="1382.39344" z="481.77656"/>
-			<Orientation y="2.35622"/>
-			<Actor seed="16250"/>
-		</Entity>
-		<Entity uid="3807">
-			<Template>gaia/fauna_fish_tuna</Template>
-			<Player>0</Player>
-			<Position x="1359.01868" z="498.38743"/>
-			<Orientation y="2.35622"/>
-			<Actor seed="53680"/>
-		</Entity>
-		<Entity uid="3808">
-			<Template>gaia/fauna_fish_tilapia</Template>
-			<Player>0</Player>
-			<Position x="1045.1753" z="225.5009"/>
-			<Orientation y="2.35622"/>
-			<Actor seed="15401"/>
-		</Entity>
-		<Entity uid="3809">
-			<Template>gaia/fauna_fish_tilapia</Template>
-			<Player>0</Player>
-			<Position x="1018.84168" z="201.73383"/>
-			<Orientation y="2.35622"/>
-			<Actor seed="53500"/>
-		</Entity>
-		<Entity uid="3810">
-			<Template>gaia/fauna_fish_tilapia</Template>
-			<Player>0</Player>
-			<Position x="1032.06885" z="212.82566"/>
-			<Orientation y="2.35622"/>
-			<Actor seed="36856"/>
-		</Entity>
-		<Entity uid="3811">
-			<Template>gaia/fauna_fish_tilapia</Template>
-			<Player>0</Player>
-			<Position x="512.96064" z="329.33365"/>
-			<Orientation y="2.35622"/>
-			<Actor seed="15401"/>
-		</Entity>
-		<Entity uid="3812">
-			<Template>gaia/fauna_fish_tilapia</Template>
-			<Player>0</Player>
-			<Position x="509.42466" z="313.52363"/>
-			<Orientation y="2.35622"/>
-			<Actor seed="53500"/>
-		</Entity>
-		<Entity uid="3813">
-			<Template>gaia/fauna_fish_tilapia</Template>
-			<Player>0</Player>
-			<Position x="527.03473" z="321.14078"/>
-			<Orientation y="2.35622"/>
-			<Actor seed="36856"/>
-		</Entity>
 		<Entity uid="3816">
 			<Template>actor|temp/reservoir.xml</Template>
 			<Position x="1212.80408" z="1420.37574"/>
@@ -13848,27 +13420,6 @@
 			<Position x="727.9599" z="531.7721"/>
 			<Orientation y="-2.53516"/>
 			<Actor seed="33029"/>
-		</Entity>
-		<Entity uid="3882">
-			<Template>gaia/fauna_fish_tilapia</Template>
-			<Player>0</Player>
-			<Position x="1000.01386" z="222.16163"/>
-			<Orientation y="0.17957"/>
-			<Actor seed="36856"/>
-		</Entity>
-		<Entity uid="3883">
-			<Template>gaia/fauna_fish_tilapia</Template>
-			<Player>0</Player>
-			<Position x="1019.97718" z="218.58085"/>
-			<Orientation y="0.17957"/>
-			<Actor seed="53500"/>
-		</Entity>
-		<Entity uid="3884">
-			<Template>gaia/fauna_fish_tilapia</Template>
-			<Player>0</Player>
-			<Position x="1001.29389" z="205.92673"/>
-			<Orientation y="0.17957"/>
-			<Actor seed="15401"/>
 		</Entity>
 		<Entity uid="3885">
 			<Template>units/athen_infantry_spearman_a</Template>
@@ -14507,27 +14058,6 @@
 			<Obstruction group="3104" group2="3106"/>
 			<Actor seed="34704"/>
 		</Entity>
-		<Entity uid="4010">
-			<Template>gaia/fauna_fish_tilapia</Template>
-			<Player>0</Player>
-			<Position x="599.32984" z="293.75028"/>
-			<Orientation y="3.39844"/>
-			<Actor seed="36856"/>
-		</Entity>
-		<Entity uid="4011">
-			<Template>gaia/fauna_fish_tilapia</Template>
-			<Player>0</Player>
-			<Position x="583.87134" z="305.11603"/>
-			<Orientation y="3.39844"/>
-			<Actor seed="53500"/>
-		</Entity>
-		<Entity uid="4012">
-			<Template>gaia/fauna_fish_tilapia</Template>
-			<Player>0</Player>
-			<Position x="599.30701" z="310.03547"/>
-			<Orientation y="3.39844"/>
-			<Actor seed="15401"/>
-		</Entity>
 		<Entity uid="4015">
 			<Template>gaia/flora_tree_palm_tropical</Template>
 			<Player>0</Player>
@@ -14548,76 +14078,6 @@
 			<Position x="336.53168" z="308.2941"/>
 			<Orientation y="-0.23328"/>
 			<Actor seed="13676"/>
-		</Entity>
-		<Entity uid="4018">
-			<Template>gaia/fauna_fish_tilapia</Template>
-			<Player>0</Player>
-			<Position x="538.98285" z="809.55811"/>
-			<Orientation y="2.84061"/>
-			<Actor seed="16619"/>
-		</Entity>
-		<Entity uid="4019">
-			<Template>gaia/fauna_fish_tilapia</Template>
-			<Player>0</Player>
-			<Position x="530.58533" z="822.30317"/>
-			<Orientation y="2.84061"/>
-			<Actor seed="3263"/>
-		</Entity>
-		<Entity uid="4020">
-			<Template>gaia/fauna_fish_tuna</Template>
-			<Player>0</Player>
-			<Position x="543.23938" z="838.71735"/>
-			<Orientation y="2.84061"/>
-			<Actor seed="20885"/>
-		</Entity>
-		<Entity uid="4021">
-			<Template>gaia/fauna_fish_tuna</Template>
-			<Player>0</Player>
-			<Position x="549.6974" z="824.29212"/>
-			<Orientation y="1.03231"/>
-			<Actor seed="23044"/>
-		</Entity>
-		<Entity uid="4022">
-			<Template>gaia/fauna_fish_tilapia</Template>
-			<Player>0</Player>
-			<Position x="659.31092" z="925.94758"/>
-			<Orientation y="2.84061"/>
-			<Actor seed="16619"/>
-		</Entity>
-		<Entity uid="4023">
-			<Template>gaia/fauna_fish_tilapia</Template>
-			<Player>0</Player>
-			<Position x="650.9134" z="938.69263"/>
-			<Orientation y="2.84061"/>
-			<Actor seed="3263"/>
-		</Entity>
-		<Entity uid="4024">
-			<Template>gaia/fauna_fish_tuna</Template>
-			<Player>0</Player>
-			<Position x="663.56751" z="955.10682"/>
-			<Orientation y="2.84061"/>
-			<Actor seed="20885"/>
-		</Entity>
-		<Entity uid="4025">
-			<Template>gaia/fauna_fish_tuna</Template>
-			<Player>0</Player>
-			<Position x="670.02546" z="940.68158"/>
-			<Orientation y="1.03231"/>
-			<Actor seed="23044"/>
-		</Entity>
-		<Entity uid="4026">
-			<Template>gaia/fauna_fish_tilapia</Template>
-			<Player>0</Player>
-			<Position x="322.4904" z="910.45533"/>
-			<Orientation y="2.84061"/>
-			<Actor seed="16619"/>
-		</Entity>
-		<Entity uid="4027">
-			<Template>gaia/fauna_fish_tilapia</Template>
-			<Player>0</Player>
-			<Position x="314.08127" z="884.28113"/>
-			<Orientation y="7.9827"/>
-			<Actor seed="3263"/>
 		</Entity>
 		<Entity uid="4038">
 			<Template>gaia/fauna_fish_tilapia</Template>
@@ -14645,62 +14105,6 @@
 			<Player>0</Player>
 			<Position x="1002.28687" z="1021.73115"/>
 			<Orientation y="1.03231"/>
-			<Actor seed="23044"/>
-		</Entity>
-		<Entity uid="4042">
-			<Template>gaia/fauna_fish_tilapia</Template>
-			<Player>0</Player>
-			<Position x="1458.4192" z="767.08527"/>
-			<Orientation y="2.84061"/>
-			<Actor seed="16619"/>
-		</Entity>
-		<Entity uid="4043">
-			<Template>gaia/fauna_fish_tilapia</Template>
-			<Player>0</Player>
-			<Position x="1450.02173" z="779.83033"/>
-			<Orientation y="2.84061"/>
-			<Actor seed="3263"/>
-		</Entity>
-		<Entity uid="4044">
-			<Template>gaia/fauna_fish_tuna</Template>
-			<Player>0</Player>
-			<Position x="1462.67579" z="796.24451"/>
-			<Orientation y="2.84061"/>
-			<Actor seed="20885"/>
-		</Entity>
-		<Entity uid="4045">
-			<Template>gaia/fauna_fish_tuna</Template>
-			<Player>0</Player>
-			<Position x="1469.1338" z="781.81928"/>
-			<Orientation y="1.03231"/>
-			<Actor seed="23044"/>
-		</Entity>
-		<Entity uid="4046">
-			<Template>gaia/fauna_fish_tilapia</Template>
-			<Player>0</Player>
-			<Position x="1224.76966" z="450.59696"/>
-			<Orientation y="5.79873"/>
-			<Actor seed="16619"/>
-		</Entity>
-		<Entity uid="4047">
-			<Template>gaia/fauna_fish_tilapia</Template>
-			<Player>0</Player>
-			<Position x="1235.35157" z="439.598"/>
-			<Orientation y="5.79873"/>
-			<Actor seed="3263"/>
-		</Entity>
-		<Entity uid="4048">
-			<Template>gaia/fauna_fish_tuna</Template>
-			<Player>0</Player>
-			<Position x="1225.9048" z="421.15055"/>
-			<Orientation y="5.79873"/>
-			<Actor seed="20885"/>
-		</Entity>
-		<Entity uid="4049">
-			<Template>gaia/fauna_fish_tuna</Template>
-			<Player>0</Player>
-			<Position x="1216.92322" z="434.15537"/>
-			<Orientation y="3.99042"/>
 			<Actor seed="23044"/>
 		</Entity>
 		<Entity uid="4050">
@@ -14814,34 +14218,6 @@
 			<Position x="747.1709" z="1330.80726"/>
 			<Orientation y="5.34127"/>
 			<Actor seed="52292"/>
-		</Entity>
-		<Entity uid="4069">
-			<Template>gaia/fauna_fish_tilapia</Template>
-			<Player>0</Player>
-			<Position x="857.35474" z="1015.1208"/>
-			<Orientation y="2.84061"/>
-			<Actor seed="16619"/>
-		</Entity>
-		<Entity uid="4070">
-			<Template>gaia/fauna_fish_tilapia</Template>
-			<Player>0</Player>
-			<Position x="848.95722" z="1027.86585"/>
-			<Orientation y="2.84061"/>
-			<Actor seed="3263"/>
-		</Entity>
-		<Entity uid="4071">
-			<Template>gaia/fauna_fish_tuna</Template>
-			<Player>0</Player>
-			<Position x="861.61133" z="1044.28003"/>
-			<Orientation y="2.84061"/>
-			<Actor seed="20885"/>
-		</Entity>
-		<Entity uid="4072">
-			<Template>gaia/fauna_fish_tuna</Template>
-			<Player>0</Player>
-			<Position x="868.06928" z="1029.85474"/>
-			<Orientation y="1.03231"/>
-			<Actor seed="23044"/>
 		</Entity>
 		<Entity uid="4073">
 			<Template>gaia/fauna_fish</Template>
@@ -15608,22 +14984,22 @@
 		</Entity>
 		<Entity uid="4205">
 			<Template>gaia/fauna_shark</Template>
-			<Player>4</Player>
+			<Player>0</Player>
 			<Position x="1007.22486" z="311.96268"/>
 			<Orientation y="7.10036"/>
 			<Actor seed="16392"/>
 		</Entity>
 		<Entity uid="4206">
 			<Template>gaia/fauna_shark</Template>
-			<Player>4</Player>
+			<Player>0</Player>
 			<Position x="990.93006" z="302.45658"/>
 			<Orientation y="7.10036"/>
 			<Actor seed="37375"/>
 		</Entity>
 		<Entity uid="4207">
 			<Template>gaia/fauna_shark</Template>
-			<Player>4</Player>
-			<Position x="972.97547" z="290.3342"/>
+			<Player>0</Player>
+			<Position x="998.34284" z="297.451"/>
 			<Orientation y="7.10036"/>
 			<Actor seed="44011"/>
 		</Entity>
@@ -15633,6 +15009,83 @@
 			<Position x="1237.47437" z="1430.37269"/>
 			<Orientation y="8.57241"/>
 			<Actor seed="39844"/>
+		</Entity>
+		<Entity uid="4212">
+			<Template>gaia/fauna_whale_fin</Template>
+			<Player>0</Player>
+			<Position x="1166.58838" z="384.2912"/>
+			<Orientation y="2.59449"/>
+			<Actor seed="404"/>
+		</Entity>
+		<Entity uid="4213">
+			<Template>gaia/fauna_whale_humpback</Template>
+			<Player>0</Player>
+			<Position x="1162.12" z="373.80298"/>
+			<Orientation y="2.59449"/>
+			<Actor seed="2784"/>
+		</Entity>
+		<Entity uid="4214">
+			<Template>gaia/fauna_whale_humpback</Template>
+			<Player>0</Player>
+			<Position x="1190.54212" z="404.38294"/>
+			<Orientation y="3.52622"/>
+			<Actor seed="7061"/>
+		</Entity>
+		<Entity uid="4215">
+			<Template>other/special_treasure_shipwreck_debris</Template>
+			<Player>0</Player>
+			<Position x="65.23124" z="971.27924"/>
+			<Orientation y="-0.82927"/>
+			<Actor seed="1565"/>
+		</Entity>
+		<Entity uid="4216">
+			<Template>other/special_treasure_shipwreck_debris</Template>
+			<Player>0</Player>
+			<Position x="79.67777" z="972.76655"/>
+			<Orientation y="4.04322"/>
+			<Actor seed="44796"/>
+		</Entity>
+		<Entity uid="4217">
+			<Template>other/special_treasure_shipwreck_debris</Template>
+			<Player>0</Player>
+			<Position x="49.55868" z="961.61811"/>
+			<Orientation y="1.48771"/>
+			<Actor seed="1565"/>
+		</Entity>
+		<Entity uid="4218">
+			<Template>other/special_treasure_shipwreck_debris</Template>
+			<Player>0</Player>
+			<Position x="40.84392" z="950.00055"/>
+			<Orientation y="6.36019"/>
+			<Actor seed="44796"/>
+		</Entity>
+		<Entity uid="4219">
+			<Template>gaia/fauna_whale_humpback</Template>
+			<Player>0</Player>
+			<Position x="714.99787" z="1043.50904"/>
+			<Orientation y="3.52622"/>
+			<Actor seed="16058"/>
+		</Entity>
+		<Entity uid="4220">
+			<Template>gaia/fauna_whale_humpback</Template>
+			<Player>0</Player>
+			<Position x="706.45801" z="1019.92115"/>
+			<Orientation y="-0.36504"/>
+			<Actor seed="44240"/>
+		</Entity>
+		<Entity uid="4221">
+			<Template>gaia/fauna_whale_fin</Template>
+			<Player>0</Player>
+			<Position x="1426.92261" z="515.6454"/>
+			<Orientation y="3.52622"/>
+			<Actor seed="1076"/>
+		</Entity>
+		<Entity uid="4222">
+			<Template>gaia/fauna_whale_humpback</Template>
+			<Player>0</Player>
+			<Position x="1412.03235" z="509.97852"/>
+			<Orientation y="3.52622"/>
+			<Actor seed="62545"/>
 		</Entity>
 	</Entities>
 	<Paths/>
