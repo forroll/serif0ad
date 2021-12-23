@@ -1,9 +1,8 @@
 {
 	"name": "serif0ad",
-	"version": "0.0.21",
+	"version": "0.0.25",
 	"label": "0 A.D. Map Pack",
 	"description": "Adds some maps",
-	"dependencies": ["0ad=0.0.21"],
+	"dependencies": ["0ad=0.0.25"],
 	"type": "content mod"
 }
-
